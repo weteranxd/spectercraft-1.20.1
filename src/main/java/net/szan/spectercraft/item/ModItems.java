@@ -11,11 +11,16 @@ import net.szan.spectercraft.SpecterCraft;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-
+    // jak chcesz dodać kolejny item skopiuj tą klase pod tą wiadomością
     public static final Item SOUL = registerItem("soul", new Item(new FabricItemSettings()));
+    public static final Item SPECTER_INGOT = registerItem("specter_ingot", new Item(new FabricItemSettings()));
+    public static final Item ENERGY_ORB = registerItem("energy_orb", new Item(new FabricItemSettings()));
 
+    // ===================================================================================
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(SOUL);
+//        entries.add(SOUL);
+//        entries.add(SPECTER_INGOT);
+//        entries.add(ENERGY_ORB);
     }
 
     private static Item registerItem(String name, Item item){

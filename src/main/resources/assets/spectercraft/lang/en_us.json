@@ -1,3 +1,7 @@
 {
-  "item.SpecterCraft.soul": "Soul"
+  "item.spectercraft.soul": "Soul",
+  "item.spectercraft.specter_ingot": "Specter ingot",
+  "item.spectercraft.energy_orb": "Energy orb",
+
+  "itemgroup.specter": "SpecterCraft Group"
 }
