@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.szan.spectercraft.SpecterCraft;
+import net.szan.spectercraft.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup SPECTER_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -18,6 +19,9 @@ public class ModItemGroups {
                         entries.add(ModItems.SOUL);
                         entries.add(ModItems.SPECTER_INGOT);
                         entries.add(ModItems.ENERGY_ORB);
+
+                        entries.add(ModBlocks.ACID);
+                        entries.add(ModBlocks.ERROR_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

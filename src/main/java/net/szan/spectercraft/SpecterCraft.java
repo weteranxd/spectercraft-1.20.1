@@ -2,6 +2,7 @@ package net.szan.spectercraft;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.szan.spectercraft.block.ModBlocks;
 import net.szan.spectercraft.item.ModItemGroups;
 import net.szan.spectercraft.item.ModItems;
 import org.slf4j.Logger;
@@ -16,6 +17,7 @@ public class SpecterCraft implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
-		LOGGER.info("Hello Fabric world!");
+		ModBlocks.registerModBlocks();
+		LOGGER.info("Hello SpecterCraft!");
 	}
 }

@@ -3,5 +3,8 @@
   "item.spectercraft.specter_ingot": "Specter ingot",
   "item.spectercraft.energy_orb": "Energy orb",
 
+  "block.spectercraft.acid": "Acid block",
+  "block.spectercraft.error_block": "Error block",
+
   "itemgroup.specter": "SpecterCraft Group"
 }
