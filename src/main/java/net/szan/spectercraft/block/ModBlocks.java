@@ -30,6 +30,9 @@ public class ModBlocks {
                     .mapColor(MapColor.PURPLE)
                     .pistonBehavior(PistonBehavior.DESTROY)
                     .dropsNothing()));
+    //===================================================================================
+    public static final Block SPECTER_BLOCK = registerBlock("specter_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

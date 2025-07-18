@@ -5,6 +5,7 @@
 
   "block.spectercraft.acid": "Acid block",
   "block.spectercraft.error_block": "Error block",
+  "block.spectercraft.specter_block": "Specter block",
 
   "itemgroup.specter": "SpecterCraft Group"
 }
